@@ -3,7 +3,7 @@ style.css
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f5;
+    background-color: #254021;
     color: #333;
 }
 a{
@@ -11,12 +11,12 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: #122b1b;
+    background-color: #192617;
     padding-inline: 16px;
     
 }
 .treino1{
-    background-color: #eee;
+    background-color: #254021;
     padding-inline: 16px;
     border-radius: 10px;
 }
