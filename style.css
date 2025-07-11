@@ -11,12 +11,14 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: #488c62;
+    background-color: #122b1b;
     padding-inline: 16px;
+    
 }
 .treino1{
     background-color: #eee;
     padding-inline: 16px;
+    border-radius: 10px;
 }
 .nav{
     max-width: 1280px;
@@ -28,6 +30,17 @@ body{
 }
 .logo{
     font-size: 40px;
+}
+.nav-list1{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+
+}
+.nav-list1 a{
+    color: white;
+    font-size: 18px;
+    padding-block: 19px;
 }
 
 .nav-list{
@@ -87,12 +100,13 @@ body{
 
 /* Cabeçalho do "app" */
 header {
-    background-color: #4CAF50;
+    background-color: #35b039;
     padding: 15px;
     color: white;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    border-radius: 15px;
 }
 
 /* Espaçamento geral da página */
@@ -178,6 +192,7 @@ footer {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 .container1 {
