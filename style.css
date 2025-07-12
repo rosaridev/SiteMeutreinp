@@ -30,11 +30,13 @@ body{
 }
 .logo{
     font-size: 40px;
+    color: white;
 }
 .nav-list1{
     display: flex;
     gap: 32px;
     list-style: none;
+    
 
 }
 .nav-list1 a{
@@ -108,6 +110,11 @@ header {
     font-weight: bold;
     border-radius: 15px;
 }
+.menu2{
+    background-color: #254021;
+    padding-inline: 16px;
+    border-radius: 10px;
+}
 
 /* Espaçamento geral da página */
 .container {
@@ -122,6 +129,7 @@ header {
     margin-bottom: 20px;
     padding: 20px;
     transition: transform 0.2s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Efeito ao passar o mouse no card */
@@ -185,10 +193,20 @@ footer {
     width: 100%;
 }
 
+
+.nav1 {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 .header1 {
-    background-color: #02aeed;
+    background-color: #cf1e1e;
     padding: 15px;
-    color: white;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -198,8 +216,18 @@ footer {
 .container1 {
     padding: 20px;
 }
+
+.menu3{
+    background-color: #254021;
+    padding-inline: 16px;
+    border-radius: 10px;
+}
+
+.logo1{
+    color: white;
+}
 .card1 {
-    background-color: #ffffff;
+    background-color: #3C732D;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     margin-bottom: 20px;
@@ -214,7 +242,7 @@ footer {
 
 
 .card1 h2 {
-    color: #08638a;
+    color: #f0f3f5;
     margin-bottom: 10px;
 } 
 
@@ -226,7 +254,7 @@ footer {
 
 .card1 li {
     padding: 8px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #3C732D;
 }
 
 .card1 li:last-child {
