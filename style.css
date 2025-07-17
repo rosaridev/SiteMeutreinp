@@ -204,6 +204,14 @@ footer {
 
 }
 
+.nav-list2{
+    color: #eee;
+}
+.logo1{
+    font-size: 40px;
+    color: white;
+}
+
 .header1 {
     background-color: #cf1e1e;
     padding: 15px;
@@ -223,17 +231,17 @@ footer {
     border-radius: 10px;
 }
 
-.logo1{
-    color: white;
-}
+
 .card1 {
     background-color: #3C732D;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(238, 239, 238, 0.1);
     margin-bottom: 20px;
     padding: 20px;
     transition: transform 0.2s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 
 .card1:hover {
@@ -259,4 +267,43 @@ footer {
 
 .card1 li:last-child {
     border-bottom: none;
+}
+
+.video-section {
+    width: 100%;
+    max-height: 400px; /* Ajuste conforme necessário */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.video-section video{
+    width: 100%;
+    margin: 50px;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: auto;
+    object-fit: cover;
+    box-shadow: 6px 6px 13px 0px black;
+    background-attachment: fixed;
+
+}
+
+.cards-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #4a995f; 
+}
+
+.card2 {
+    background: rgb(92, 154, 90);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card2:hover {
+    transform: translateY(-5px);
 }
