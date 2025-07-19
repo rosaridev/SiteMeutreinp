@@ -33,3 +33,9 @@ checkboxe.forEach(checkboxe => {
     });
 }); */
 
+document.querySelectorAll('.nav-list a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('.nav').classList.remove('active');
+    });
+});
+

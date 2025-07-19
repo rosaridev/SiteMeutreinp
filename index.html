@@ -11,11 +11,17 @@
     <script src="script.js" defer></script>
 --> 
 </head>
+
 <body>
     <header class="treino1">
         <nav class="nav">
             <a href="/" class="logo">Treino 🏋️</a>
-            <button class="hamburguer"></button>
+            <button class="hamburguer">
+                <span></span>
+                    <span></span>
+                    <span></span>
+            </button>
+                    
             <ul class="nav-list">
                 <li><a href="">Inicio</a></li>
                 <li><a href="pagina3.html">Treino kaio</a></li>
@@ -45,5 +51,10 @@
 
     <footer>© 2025 Meu App de Treinos</footer>
 
+    <script>
+        document.querySelector('.hamburguer').addEventListener('click', () => {
+            document.querySelector('.nav').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
