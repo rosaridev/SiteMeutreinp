@@ -81,7 +81,7 @@ body{
         justify-content: center;
         align-items: center;
         clip-path: circle(0px at 90% -10%);
-        transition: all 0.8s ease-out;
+        transition: all 0.8s ease-out !important;
         z-index: 1000;
         pointer-events: none;
         margin: 0;
@@ -118,7 +118,7 @@ body{
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-        transition: opacity 0.3s;
+        transition:  opacity 0.3s;
     }
     
     .hamburguer::after {
